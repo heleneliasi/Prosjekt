@@ -2,21 +2,23 @@
 
 ## 1. Forside
 
-**Prosjekttittel:**\
-**Navn:**\
-**Klasse:**\
-**Dato:**
+**Prosjekttittel: Sushibutikk**\
+**Navn: Helen**\
+**Klasse: 2IMI**\
+**Dato: 13/11/25**\
 
 **Kort beskrivelse av prosjektet:**\
 *Skriv 2--4 setninger om hva applikasjonen gjør og hvilket tema den
 bygger på.*
-
+*Applikasjonen skal tilby deg å bestille mat (sushi), online.*
+*Den bygger på et butikk tema, hvor man skal kunne handle.*
 ------------------------------------------------------------------------
 
 ## 2. Systembeskrivelse
 
 **Formål med applikasjonen:**\
 *Forklar hva du ønsket å oppnå med prosjektet.*
+*Jeg ønsket å få en bedre forståelse for databaser og koblingen av de til en nettside. Jeg ville lære det vi har jobba med enda grundigere.*
 
 **Brukerflyt:**\
 *Beskriv hvordan brukeren bruker løsningen -- fra startside til lagring
