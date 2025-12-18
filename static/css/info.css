@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff6f4;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #c94832;
+    padding: 18px;
+    font-size: 26px;
+    color: white;
+}
+
+.box {
+    margin: 60px auto;
+    padding: 30px;
+    width: 50%;
+    background: white;
+    border-radius: 14px;
+    border: 2px solid #eee;
+}
+
+h2 {
+    color: #c94832;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 30px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}

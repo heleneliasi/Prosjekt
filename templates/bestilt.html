@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="no">
+        <head>
+            <meta charset="UTF-8">
+            <title>Bestilling fullført</title>
+            <link rel="stylesheet" href="/static/css/bestilt.css">
+        </head>
+    <body>
+
+  <h1>Takk for bestillingen!</h1>
+
+<h2>Du bestilte:</h2>
+<h3>Total: {{ total }} kr</h3>
+<p>{{ produkt }}</p>
+<p>Ordrenummer: {{ ordre_id }}</p>
+<p>Dato: {{ tidspunkt }}</p>
+
+<a href="/" class="btn">Tilbake til forsiden</a>
+
+    </body>
+</html>

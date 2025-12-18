@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meny</title>
+    <link rel="stylesheet" href="/static/css/meny.css">
+</head>
+
+<body>
+    <h1 class="center">Meny</h1>
+
+    <form action="/meny" method="POST">
+        <div class="menu-container">
+
+            {% for p in produkter %}
+            <label class="menu-item">
+
+
+                <img src="{{ url_for('static', filename='img/' + p[1] | lower | replace(' ', '_') + '.jpeg') }}"
+                    alt="{{ p[1] }}">
+
+
+
+                <h3>{{ p[1] }} – {{ p[3] }} kr</h3>
+                <p>{{ p[2] }}</p>
+
+                <input class="menu-radio" type="radio" name="produkt" value="{{ p[0] }}">
+
+            </label>
+            {% endfor %}
+
+        </div>
+
+        <div class="center">
+            <button type="submit" class="pay-btn">Betal</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf3f2;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #4CAF50;
+    padding: 18px;
+    font-size: 28px;
+    color: white;
+}
+
+.box {
+    margin: 60px auto;
+    width: 50%;
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    border: 2px solid #eee;
+}
+
+.produkt {
+    font-size: 26px;
+    color: #c94832;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 25px;
+    display: inline-block;
+    padding: 12px 30px;
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
